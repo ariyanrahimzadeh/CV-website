@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Arian Rahimzadeh Abdi — Computer Engineering student focused on AI, Unreal Engine, and creative technology."
+    />
+    <meta name="theme-color" content="#0a0a0a" />
+    <title>Arian Rahimzadeh Abdi — AI & Interactive Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              ink: "#0a0a0a",
+              panel: "#141414",
+              line: "#262626",
+              electric: "#8b7cff",
+              cyan: "#63d8ff",
+            },
+            fontFamily: {
+              sans: ["Manrope", "sans-serif"],
+              mono: ["DM Mono", "monospace"],
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="bg-ink font-sans text-white antialiased">
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <nav class="nav-shell mx-auto flex items-center justify-between" aria-label="Main navigation">
+        <a class="wordmark" href="#home" aria-label="Arian Rahimzadeh Abdi, home">
+          <span class="wordmark-mark">A</span>
+          <span>arian<span class="text-white/45">.dev</span></span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-menu"
+          aria-label="Open navigation menu"
+        >
+          <i data-lucide="menu" aria-hidden="true"></i>
+        </button>
+        <div class="nav-links" id="primary-menu">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a class="nav-contact" href="#contact">Let’s talk <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> COMPUTER ENGINEERING · ISTANBUL, TR</p>
+          <h1 id="hero-title">Building where<br />code meets <span class="gradient-text">creativity.</span></h1>
+          <p class="hero-name">Arian Rahimzadeh Abdi</p>
+          <p class="hero-role">Computer Engineering Student <span>·</span> AI &amp; Unreal Engine Developer</p>
+          <p class="hero-intro">
+            I turn complex ideas into thoughtful digital experiences — from AI-powered tools to
+            interactive worlds.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="./assets/Arian_CV.pdf" download>
+              Download CV <i data-lucide="download" aria-hidden="true"></i>
+            </a>
+            <a class="button button-quiet" href="#projects">
+              Explore my work <i data-lucide="arrow-down" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="hero-socials" aria-label="Contact">
+            <a href="mailto:fc27ariyan@gmail.com" aria-label="Email Arian"><i data-lucide="mail" aria-hidden="true"></i></a>
+            <span class="social-note">Open to exciting opportunities</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="A creative technology illustration">
+          <div class="orbit orbit-outer"></div>
+          <div class="orbit orbit-inner"></div>
+          <div class="visual-grid"></div>
+          <div class="visual-core">
+            <span class="core-symbol">&lt;/&gt;</span>
+            <span class="core-caption">CREATIVE<br />ENGINEERING</span>
+          </div>
+          <div class="float-chip chip-ai"><span class="chip-icon"><i data-lucide="brain" aria-hidden="true"></i></span> AI / ML</div>
+          <div class="float-chip chip-engine"><span class="chip-icon cyan-chip"><i data-lucide="box" aria-hidden="true"></i></span> UNREAL ENGINE</div>
+          <div class="float-chip chip-code"><span class="pulse-dot"></span> Always learning</div>
+          <span class="visual-star star-one">✳</span>
+          <span class="visual-star star-two">✧</span>
+        </div>
+        <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="section-shell section-block" id="about" aria-labelledby="about-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2 id="about-title">Curious by nature.<br /><span class="muted-heading">Engineer by choice.</span></h2>
+        </div>
+
+        <div class="bento-grid">
+          <article class="bento-card about-card reveal">
+            <div class="card-topline"><span class="card-index">01 / ABOUT</span><i data-lucide="sparkles" aria-hidden="true"></i></div>
+            <h3>Technical thinking.<br /><span class="gradient-text">Visual instinct.</span></h3>
+            <p>
+              Final-year Computer Engineering student at Nişantaşı University with a foundational
+              background in Graphic Design. Focused on bridging technical engineering with visual
+              creativity through AI agents, deep learning (TensorFlow), and interactive experiences
+              in Unreal Engine.
+            </p>
+            <div class="about-foot"><span class="tiny-line"></span> Curious about what’s next</div>
+          </article>
+
+          <article class="bento-card skills-card reveal">
+            <div class="card-topline"><span class="card-index">02 / TOOLKIT</span><i data-lucide="command" aria-hidden="true"></i></div>
+            <h3>Skills &amp; tools</h3>
+            <div class="skill-group">
+              <h4><span class="skill-dot violet"></span> AI &amp; Programming</h4>
+              <div class="tag-list">
+                <span>Python</span><span>TensorFlow</span><span>AI Agents</span><span>SadTalker</span><span>Automated CAD Scripting</span><span>C++</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h4><span class="skill-dot cyan"></span> Game Dev &amp; Interactive</h4>
+              <div class="tag-list"><span>Unreal Engine</span><span>3D Workflows</span></div>
+            </div>
+            <div class="skill-group">
+              <h4><span class="skill-dot blue"></span> Web &amp; Platforms</h4>
+              <div class="tag-list"><span>HTML/CSS/JS</span><span>CMS Platforms</span><span>PIM/DAM APIs</span><span>Git/GitHub</span></div>
+            </div>
+            <div class="skill-group">
+              <h4><span class="skill-dot pink"></span> Design</h4>
+              <div class="tag-list"><span>Graphic Design fundamentals</span><span>UI/UX principles</span><span>Digital Media Production</span></div>
+            </div>
+          </article>
+
+          <article class="bento-card education-card reveal" id="education">
+            <div class="card-topline"><span class="card-index">03 / EDUCATION</span><i data-lucide="graduation-cap" aria-hidden="true"></i></div>
+            <div class="education-entry">
+              <span class="education-icon"><i data-lucide="cpu" aria-hidden="true"></i></span>
+              <div><h3>B.Sc. in Computer Engineering</h3><p>Nişantaşı University</p><span class="education-meta">Senior / Final Year</span></div>
+            </div>
+            <div class="education-divider"></div>
+            <div class="education-entry">
+              <span class="education-icon secondary"><i data-lucide="pen-tool" aria-hidden="true"></i></span>
+              <div><h3>Background in Graphic Design</h3><p>Foundational design education</p><span class="education-meta">Completed 1 year prior to engineering</span></div>
+            </div>
+          </article>
+
+          <article class="bento-card interests-card reveal">
+            <div class="card-topline"><span class="card-index">04 / OFF THE CLOCK</span><i data-lucide="heart" aria-hidden="true"></i></div>
+            <h3>Good things<br />outside the screen.</h3>
+            <div class="interest-list">
+              <span><i data-lucide="timer" aria-hidden="true"></i> Competitive runner</span>
+              <span><i data-lucide="map-pin" aria-hidden="true"></i> 10K Istanbul'u Koşuyorum finisher</span>
+              <span><i data-lucide="circle-dot" aria-hidden="true"></i> Football enthusiast</span>
+              <span><i data-lucide="music-2" aria-hidden="true"></i> Heavy metal listener</span>
+            </div>
+            <div class="interest-decoration" aria-hidden="true">10<span>K</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell section-block projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading projects-heading reveal">
+          <div>
+            <p class="eyebrow">SELECTED WORK &amp; EXPERIENCE</p>
+            <h2 id="projects-title">A few things<br /><span class="muted-heading">I’ve been building.</span></h2>
+          </div>
+          <p class="section-aside">Experiments, academic work, and ideas<br />in progress.</p>
+        </div>
+
+        <div class="filter-row reveal" role="group" aria-label="Filter projects">
+          <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All <span>03</span></button>
+          <button class="filter-button" type="button" data-filter="ai" aria-pressed="false">AI / ML</button>
+          <button class="filter-button" type="button" data-filter="unreal" aria-pressed="false">Unreal Engine</button>
+          <button class="filter-button" type="button" data-filter="web" aria-pressed="false">Web</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-ai reveal" data-category="ai">
+            <div class="project-art avatar-art" aria-hidden="true">
+              <div class="avatar-orb"><i data-lucide="audio-lines"></i></div>
+              <span class="art-label">SADTALKER <span>×</span> PYTHON</span>
+              <div class="waveform"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span>INTERNSHIP PROJECT</span><span class="project-number">01</span></div>
+              <h3>AI-Driven Video Avatar Generation</h3>
+              <p>Developed a lip-sync video avatar generation pipeline using SadTalker and Python frameworks, resolving synchronization discrepancies and documenting technical architecture.</p>
+              <div class="project-tags"><span>Python</span><span>SadTalker</span><span>AI / ML</span></div>
+            </div>
+          </article>
+
+          <article class="project-card project-management reveal" data-category="project-management">
+            <div class="project-art team-art" aria-hidden="true">
+              <div class="flow-node node-a"><i data-lucide="lightbulb"></i></div>
+              <div class="flow-node node-b"><i data-lucide="boxes"></i></div>
+              <div class="flow-node node-c"><i data-lucide="check-check"></i></div>
+              <span class="flow-line line-a"></span><span class="flow-line line-b"></span>
+              <span class="art-label">PLAN <span>→</span> BUILD <span>→</span> DELIVER</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span>TEAM PROJECT · 4 ENGINEERS</span><span class="project-number">02</span></div>
+              <h3>Software Project Management Simulation</h3>
+              <p>Collaborated in a 4-person engineering team to design, track, and deliver a comprehensive software architecture and project lifecycle under academic supervision.</p>
+              <div class="project-tags"><span>Teamwork</span><span>Software Architecture</span><span>Project Lifecycle</span></div>
+            </div>
+          </article>
+
+          <article class="project-card project-unreal reveal" data-category="unreal">
+            <div class="project-art unreal-art" aria-hidden="true">
+              <div class="unreal-ring ring-a"></div><div class="unreal-ring ring-b"></div>
+              <div class="unreal-cube"><i data-lucide="box"></i></div>
+              <span class="art-label">A WORLD OF POSSIBILITIES</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span>INTERACTIVE EXPERIMENTS</span><span class="project-number">03</span></div>
+              <h3>Unreal Engine &amp; Interactive Tech</h3>
+              <p>A space for game development, interactive 3D, and AI experiments. More worlds and prototypes are on the way.</p>
+              <div class="project-tags"><span>Unreal Engine</span><span>3D Workflows</span><span>In progress</span></div>
+            </div>
+          </article>
+        </div>
+        <p class="empty-projects" hidden>No web projects featured yet — check back soon.</p>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-shell contact-inner reveal">
+          <p class="eyebrow"><span class="status-dot"></span> HAVE A PROJECT IN MIND?</p>
+          <h2 id="contact-title">Let’s make something<br /><span class="gradient-text">meaningful.</span></h2>
+          <p class="contact-copy">Open to collaborations, opportunities, and conversations about creative technology.</p>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:fc27ariyan@gmail.com">Say hello <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+            <button class="button button-copy" type="button" id="copy-email" data-email="fc27ariyan@gmail.com">
+              <i data-lucide="copy" aria-hidden="true"></i><span>Copy email</span>
+            </button>
+          </div>
+          <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+          <a class="contact-email" href="mailto:fc27ariyan@gmail.com">fc27ariyan@gmail.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <a class="wordmark" href="#home"><span class="wordmark-mark">A</span><span>arian<span class="text-white/45">.dev</span></span></a>
+      <p>Designed &amp; built with curiosity <span>© <span id="year"></span> Arian Rahimzadeh Abdi</span></p>
+      <a class="back-top" href="#home" aria-label="Back to top"><i data-lucide="arrow-up" aria-hidden="true"></i></a>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
