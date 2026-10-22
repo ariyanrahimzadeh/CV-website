@@ -4,8 +4,9 @@
 
 *Computer Engineering Student | AI & Unreal Engine Developer | Creative Technologist*
 
-<a href="https://ariyanrahimzadeh.github.io/CV-website/"><img src="https://img.shields.io/badge/%F0%9F%9A%80-View%20Live%20Portfolio%20Website-7C5CFC?style=for-the-badge" alt="🚀 View Live Portfolio Website"></a>
-<a href="./assets/ENG_CV.pdf"><img src="https://img.shields.io/badge/%F0%9F%93%84-Download%20CV%20(PDF)-23272F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="📄 Download CV (PDF)"></a>
+[![View Live Portfolio Website](https://img.shields.io/badge/🚀_View_Live_Portfolio_Website-7C5CFC?style=for-the-badge)](https://ariyanrahimzadeh.github.io/CV-website/)
+&nbsp;
+[![Download CV (PDF)](https://img.shields.io/badge/📄_Download_CV_(PDF)-23272F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](assets/ENG_CV.pdf)
 
 </div>
 
