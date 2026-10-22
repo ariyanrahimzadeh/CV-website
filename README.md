@@ -5,7 +5,7 @@
 *Computer Engineering Student | AI & Unreal Engine Developer | Creative Technologist*
 
 [![🚀 View Live Portfolio Website](https://img.shields.io/badge/%F0%9F%9A%80-View%20Live%20Portfolio%20Website-7C5CFC?style=for-the-badge)](https://ariyanrahimzadeh.github.io/CV-website/)
-[![📄 Download CV (PDF)](https://img.shields.io/badge/%F0%9F%93%84-Download%20CV%20(PDF)-23272F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./assets/Arian_CV.pdf)
+[![📄 Download CV (PDF)](https://img.shields.io/badge/%F0%9F%93%84-Download%20CV%20(PDF)-23272F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./assets/ENG_CV.pdf)
 
 </div>
 
@@ -34,4 +34,4 @@ Final-year Computer Engineering student at Nişantaşı University with a founda
 1. Clone the repository: `git clone https://github.com/ariyanrahimzadeh/web.git`
 2. Open `index.html` in a browser, or open the folder in VS Code and launch it with the Live Server extension.
 
-> To enable the CV download button, add the PDF at `assets/Arian_CV.pdf`.
+> To enable the CV download button, add the PDF at `assets/ENG_CV.pdf`.
